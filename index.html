@@ -7,7 +7,7 @@
 </head>
 <body> 
 
-    <h3>Robin Braun</h3>
+    <h3>Robin Andreas Braun</h3>
     <p>
         I'm a Senior Economist in the Monetary Analysis Directorate of the Bank of England.
     </p>
@@ -18,7 +18,7 @@
     </p>
    
     <p>
-        CV: <a href="https://github.com/r-a-braun/r-a-braun.github.io/raw/main/docs/CV.pdf">cv</a>
+        <a href="https://github.com/r-a-braun/r-a-braun.github.io/raw/main/docs/CV.pdf">cv</a>
     </p> 
 
      
@@ -31,6 +31,22 @@
     <a  href="https://github.com/r-a-braun/r-a-braun.github.io/raw/main/docs/SVAR-DPMM-resubmitted.pdf">[latest version]</a> </a> 
     <a href="https://www.bankofengland.co.uk/working-paper/2021/the-importance-of-supply-and-demand-for-oil-prices-evidence-from-non-gaussianity" target="_blank">[BoE Working Paper]</a>
     <a href="https://github.com/r-a-braun/SVAR-DPMM" target="_blank">[replication files]</a>
+    <a href="javascript:void(0);" onclick="toggleAbstract()">[Abstract]</a>
+      <div id="abstract" style="display:none;">
+        <p>
+            When quantifying the importance of supply and demand for oil price fluctuations, a wide range of estimates have been reported.  Models identified via a sharp upper bound  on the short-run price elasticity of supply, find supply shocks to be minor drivers. In turn, when replacing the upper bound with a weakly informative prior, supply shocks turn out to be substantially more important. In this paper, I revisit the evidence in a model that combines weakly informative priors  with identification by  non-Gaussianity. For this purpose, a SVAR is developed where the unknown distributions of the structural shocks are modelled non-parametrically. The empirical findings suggest that once identification by non-Gaussianity is incorporated into the model, posterior mass of the short run oil supply elasticity shifts towards zero and oil supply shocks become minor drivers of oil prices.  In terms of contributions to the forecast error variance of oil prices, the model arrives at median estimates of just 6%  over a 16 month horizon.
+        </p>
+      </div>
+      <script>
+        function toggleAbstract() {
+          var x = document.getElementById("abstract");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+      </script>
 
     <p>
         <b>Time Varying IV-SVARs and the Effects of Monetary Policy on Financial Variables. </b>   with George Kapetanios and Massimiliano Marcellino. <i> Draft available upon request </i>
@@ -44,7 +60,22 @@
     <a href="https://doi.org/10.1080/07350015.2022.2104857" target="_blank">[DOI]</a>
     <a href="https://github.com/r-a-braun/SVAR-IVSR/raw/main/Online%20Appendix/appendix_braun_brueggemann_signvar.pdf" target="_blank">[Online Appendix]</a>
     <a href="https://github.com/r-a-braun/SVAR-IVSR" target="_blank">[replication files]</a>
-    
+    <a href="javascript:void(0);" onclick="toggleAbstract2()">[Abstract]</a>
+      <div id="abstract2" style="display:none;">
+        <p>
+            We discuss combining sign restrictions with information in external instruments (proxy variables) to identify structural vector autoregressive (SVAR) models. In one setting, we assume the availability of valid external instruments. Sign restrictions may then be used to identify further orthogonal shocks, or as an additional piece of information to pin down the shocks identified by the external instruments more precisely. In a second setting, we assume that proxy variables are only “plausibly exogenous” and suggest various types of inequality restrictions to bound the relation between structural shocks and the external variable. This can be combined with conventional sign restrictions to further narrow down the set of admissible models. Within a proxy-augmented SVAR, we conduct Bayesian inference and discuss computation of Bayes factors. They can be useful to test either the sign- or IV restrictions as overidentifying. We illustrate the usefulness of our methodology in estimating the effects of oil supply and monetary policy shocks.
+        </p>
+      </div>
+      <script>
+        function toggleAbstract2() {
+          var x = document.getElementById("abstract2");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+      </script>
     
     <p>
         <b>Identification of Structural Vector Autoregressions by Stochastic Volatility.</b> Journal of Business and Economic Statistics, 2020, with Dominik Bertsche
@@ -52,7 +83,22 @@
     <a href="https://doi.org/10.1080/07350015.2020.1813588" target="_blank">[DOI]</a>
     <a href="https://github.com/r-a-braun/SVAR-SV/raw/main/Appendix.pdf" target="_blank">[Online Appendix]</a>
     <a href="https://github.com/r-a-braun/SVAR-SV" target="_blank">[replication files]</a>
-    
+    <a href="javascript:void(0);" onclick="toggleAbstract3()">[Abstract]</a>
+      <div id="abstract3" style="display:none;">
+        <p>
+            We propose to exploit stochastic volatility for statistical identification of structural vector autoregressive models (SV-SVAR). We discuss full and partial identification of the model and develop efficient EM algorithms for maximum likelihood inference. Simulation evidence suggests that the SV-SVAR works well in identifying structural parameters also under misspecification of the variance process, particularly if compared to alternative heteroscedastic SVARs. We apply the model to study the importance of oil supply shocks for driving oil prices. Since shocks identified by heteroscedasticity may not be economically meaningful, we exploit the framework to test instrumental variable restrictions which are overidentifying in the heteroscedastic model. Our findings suggest that conventional supply shocks are negligible, while news shocks about future supply account for almost all the variation in oil prices.
+        </p>
+      </div>
+      <script>
+        function toggleAbstract3() {
+          var x = document.getElementById("abstract3");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+      </script>
     
 
 
